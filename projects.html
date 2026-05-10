@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <title>Projekty</title>
+        <link rel="stylesheet" href="style.css">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anta&family=Georama:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id= "navbar">
+            <div id = "name">
+                <h1>Projekty</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="./index.html"><span class="nav-text"> Úvod</span></a></li>
+                    <li><a href="./aboutme.html"><span class="nav-text"> O mne</span></a></li>
+                    <li><a class = "nav-current" href="#"><span class="nav-text"> Projekty</span></a></li>
+                    <li><a href="./contact.html"><span class="nav-text"> Kontakt</span></a></li>
+                </ul>
+                <button id="hamburger">
+                <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </header>
+        <section id="intro">
+            <h2> Projekty z mojej dielne</h2>
+            <div id="intro_content">
+                <div class="card">
+                <div class="card_container">
+                <a href="#vysoka_skola"> <h3><b>Vysoká škola</b></h3></a> 
+                </div>
+                </div>
+                <div class="card">
+                
+                <div class="card_container">
+                <a href="#stredna_skola"> <h3><b>Stredná škola</b></h3></a> 
+                </div>
+                </div>
+                <div class="card">
+            
+                <div class="card_container">
+                <a href="#mimo_skoly"> <h3><b>Mimo školy</b></h3></a> 
+                </div>
+            </div>
+            </div>
+            <p>V tejto podstránke môžete vstúpiť do kúsku mojej mysle a toho, kam všade sa dostali moje samostatné nápady, alebo nazrieť do školských zadaní, ktoré ma na vysokej škole zatiaľ sprevádzali </p>
+        </section>
+
+        <h2 id="vysoka_skola">Vysoká škola</h2>
+            
+        <section class="projects_grid">
+            
+            <div class="project_card">
+
+                <img src="assets/project1.png" alt="Projekt">
+
+                <div class="project_content">
+
+                    <h3>Kalkulačka</h3>
+
+                    <p>
+                        Projekt zameraný na tímovú spoluprácu vrámci predmetu IVS
+                    </p>
+
+                    <div class="project_tags">
+
+                        <span>C</span>
+                        <span>CMake</span>
+                        <span>GTK</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="project_card">
+
+                <img src="assets/project2.png" alt="Projekt2">
+
+                <div class="project_content">
+
+                    <h3>Obchod s nosičmi</h3>
+
+                    <p> Vypracovanie systému pomocou diagramov vrámci predmetu IUS
+                    </p>
+
+                    <div class="project_tags">
+                        <span>Draw.io</span>
+                        <span>UML</span>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <h2 id="stredna_skola">Stredná škola</h2>
+            
+        <section class="projects_grid">
+            
+            <div class="project_card">
+
+                <img src="assets/project3.webp" alt="Projekt">
+
+                <div class="project_content">
+
+                    <h3>Spolupráca s GlobalLogic</h3>
+
+                    <p>
+                        Infotainment obrazovka pre školskú chodbu
+                    </p>
+
+                    <div class="project_tags">
+
+                        <span>Python</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Weather API</span>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        </section>
+        <h2 id="mimo_skoly">Mimo školy</h2>
+            
+        <section class="projects_grid">
+            
+            <div class="project_card">
+
+                <img src="assets/project4.png" alt="Projekt">
+
+                <div class="project_content">
+
+                    <h3>Textová hra D&D</h3>
+
+                    <p>
+                        Naprogramovanie príbehovej hry v termináli
+                    </p>
+
+                    <div class="project_tags">
+
+                        <span>C++</span>
+                        <span>ASCII art</span>
+
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+        
+        <footer>
+        <p>© 2026 Dominik Vattai</p>
+        </footer>   
+            
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
